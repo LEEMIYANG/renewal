@@ -1,3 +1,16 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@font-face {
+    font-family: 'SuseongDotum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/SuseongDotum.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HSBombaram3_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.1/HSBombaram3_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     font-family: 'NanumSquare', sans-serif;
 }
@@ -207,7 +220,7 @@ body {
     font-size: 45px;
     font-weight: 300;
     padding-left: 70px;
-    font-family: '수성돋움체';
+    font-family: 'SuseongDotum';
     box-sizing: border-box;
 }
 .main .con1 .intro li {
@@ -770,14 +783,14 @@ body {
     font-size: 18px;
     font-weight: 600;
     color: #b6a8a8;
-    font-family: 'HS봄바람체 3.0 Vertical'
+    font-family: 'HSBombaram3_Regular';
 }
 .main .con6 .news li:last-child .list li .d span {
     font-size: 24px;
     font-weight: 900;
     padding-left: 5px;
     color: #b6a8a8;
-    font-family: 'HS봄바람체 3.0 Vertical'
+    font-family: 'HSBombaram3_Regular';
 }
 /* main content7 - sns*/
 .main .con7 {

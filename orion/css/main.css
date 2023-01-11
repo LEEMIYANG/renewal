@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     font-size: 10px;
 }
 body {
-    font-family: '나눔스퀘어라운드';
+    font-family: 'NanumSquareRound';
     font-weight: 600;
 }
 #wrap {

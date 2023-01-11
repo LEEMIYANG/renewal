@@ -1,3 +1,17 @@
+
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 #wrap {
     width: 100%;
     min-width: 1600px;
@@ -327,7 +341,7 @@ body {
 }
 .main .con1 .tech li strong {
     font-weight: 700;
-    font-family: 'SB 어그로';
+    font-family: 'SBAggroB';
     position: absolute;
     bottom: 100px;
     right: 50px;
@@ -489,7 +503,7 @@ body {
     margin-top: 80px;
     font-size: 51px;
     display: block;
-    font-family: '세방고딕';
+    font-family: 'SEBANG_Gothic_Bold';
     font-weight: 900;
 }
 .main .con3 .info li span {
