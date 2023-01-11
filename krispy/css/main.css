@@ -1,0 +1,712 @@
+body {
+    font-family: '나눔스퀘어라운드';
+}
+#wrap {
+    width: 100%;
+}
+/* header */
+#header {
+    width: 100%;
+}
+#header .top {
+    width: 100%;
+    height: 213px;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-bottom: 5px solid #c4d6c6;
+}
+#header .top h1 {
+    text-align: center;
+    line-height: 213px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+/* nav */
+#nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding-left: 570px;
+    box-sizing: border-box;
+}
+#nav .gnb {
+    display: flex;
+}
+#nav .gnb li {
+    margin-right: 70px;
+}
+#nav .gnb li a {
+    font-family: '카페24 써라운드';
+    font-size: 16px;
+    line-height: 50px;
+}
+#nav .side-menu {
+    display: flex;
+    margin-top: 13px;
+}
+#nav .side-menu li {
+    margin-right: 20px;
+}
+#nav .side-menu li a {
+    font-family: '카페24 써라운드';
+    font-size: 12px;
+    color: #9c8562
+}
+#nav .side-menu li:nth-child(3) a {
+    font-size: 20px;
+}
+#nav .side-menu li:nth-child(4) a {
+    font-size: 20px;
+}
+#nav .side-menu li:nth-child(5) a {
+    font-size: 20px;
+}
+#nav .gnb li {
+    position: relative;
+}
+#nav .gnb li .sub {
+    position: absolute;
+    z-index: 50;
+    left: -75px;
+    display:none;
+    background: #fff;
+    width: 230px;
+    height: 300px;
+    transition: 0.5s;
+    border: 5px solid #c4d6c6;
+    border-top: none;
+    border-radius: 0 0 50px 50px;
+    transition:0.5s;
+}
+#nav .gnb li .sub.on {
+    top: 50px;
+    display:block;
+}
+#nav .gnb li .sub ul li {
+    margin-top: 20px;
+}
+#nav .gnb li .sub li {
+    width: 100%;
+}
+#nav .gnb li .sub li a {
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+}
+#nav .gnb li .sub li:hover a {
+    color: #c4d6c6;
+}
+
+/* visual */
+#visual {
+    width: 100%;
+    position: relative;
+}
+#visual .banner {
+    display: flex;
+    height: 667px;
+    overflow: hidden;
+}
+#visual .banner li {
+    display: none;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+}
+#visual .banner li.on {
+    display: block;
+}
+#visual .banner li.on img.l1 {
+    position: absolute;
+    left: 500px;
+    top: 450px;
+}
+#visual .banner li.on img.l2 {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+#visual .paging {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+#visual .paging li {
+    margin-right: 5px;
+}
+#visual .paging li a {
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    background: #999;
+}
+#visual .paging li.on a {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    display: block;
+}
+
+#container {
+    width: 100%;
+}
+
+/* main */
+.main .con-box {
+    width: 100%;
+    position: relative;
+}
+.main .inner {
+    width: 1370px;
+    margin: auto;
+}
+/* main con1 */
+.main .con1 h2 {
+    text-align: center;
+    width: 305px;
+    height: 60px;
+    background: #000;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+    margin: 100px auto;
+}
+.main .con1 .btn button {
+    background: #000;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    cursor: pointer;
+}
+.main .con1 .btn .prev {
+    left: 39%
+}
+.main .con1 .btn .next {
+    left: 59%;
+}
+.main .con1 .btn button i {
+    color: #fff;
+    font-size: 30px;
+}
+.main .con1 .c1 {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.main .con1 .c1 .month {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main .con1 .c1 .month li {
+    position: relative;
+    margin-right: 80px;
+}
+.main .con1 .c1 .month li .image img {
+    transform: scale(0.7);
+    transition: 0.2s
+}
+.main .con1 .c1 .month li.on .image img {
+    transform: scale(1);
+}
+
+.main .con1 .c1 .month li .txt {
+    display: none;
+}
+.main .con1 .c1 .month li.on .txt {
+    display: block;
+}
+.main .con1 .c1 .month li.on .txt {
+    text-align: center;
+}
+.main .con1 .c1 .month li.on .txt strong {
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.main .con1 .month li.on .txt strong span {
+    font-size: 16px;
+}
+.main .con1 .month li.on .txt p {
+    font-size: 16px;
+    line-height: 15px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.main .con1 .month li.on .txt .star i {
+    color: #ca1041;
+}
+.main .con1 .month li.on .txt .star {
+    margin-bottom: 15px;
+}
+.main .con1 .month li.on .txt em {
+    font-weight: 900;
+    font-size: 25px;
+    display: block;
+}
+.main .con1 .month li.on .txt p.more {
+    width: 188px;
+    height: 68px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.main .con1 .month li.on .txt p.more a {
+    display: block;
+    text-align: center;
+    line-height: 68px;
+    background: #c4d6c6;
+    box-shadow: 5px 5px 5px #ccc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+.main .con1 .month li.on img {
+    transform: scale(1);
+}
+.main .con1 .month li img {
+    transform: scale(0.7)
+}
+.main .con1 .month li img:last-child {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+
+
+
+
+/* con2 */
+.main .con2 h2 {
+    text-align: center;
+    width: 305px;
+    height: 60px;
+    background: #000;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+    margin: 100px auto;
+}
+.main .con2 .inner {
+    background-image: url('../images/menubg.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 1500px;
+    position: relative;
+}
+.main .con2 .menu li {
+    position: absolute;
+}
+.main .con2 .menu li:nth-child(1) {
+    top: 130px;
+    left: 100px;
+    transition: 0.2s
+}
+.main .con2 .menu li:nth-child(2) {
+    top: 320px;
+    right: 150px;
+}
+.main .con2 .menu li:nth-child(3) {
+    top: 600px;
+    left: 200px;
+}
+.main .con2 .menu li:nth-child(4) {
+    top: 900px;
+    right: 400px;
+}
+.main .con2 .menu li:hover img {
+    animation: menu 1.5s infinite;
+}
+
+
+/* animation -menu */
+@keyframes menu {
+    50% {
+        transform: rotate(10deg);
+    }
+}
+
+
+.main .con2 .menu li .item {
+    display: inline-block;
+}
+.main .con2 .menu li .item strong {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+.main .con2 .menu li .item p.more {
+    width: 126px;
+    height: 33px;
+    margin-top: 25px;
+    position: relative;
+}
+.main .con2 .menu li .item p.more a {
+    font-weight: 900;
+    display: block;
+    color: #c4d6c6;
+    border: 3px solid #c4d6c6;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 5px;
+    font-size: 13px;
+    position: relative;
+    transition: 0.5s
+}
+.main .con2 .menu li:hover .item p.more a {
+    color: #fff;
+}
+.main .con2 .menu li .item p.more a::before {
+    content: "";
+    width: 0;
+    background: #c4d6c6;
+    display: block;
+    transition: 0.6s;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.main .con2 .menu li:hover .item p.more a::before {
+    width: 100%;
+}
+.main .con2 .menu li:nth-child(3) .item p.more {
+    width: 200px;
+}
+.main .con2 .menu li .item {
+    position: absolute;
+}
+.main .con2 .menu li .item strong {
+    text-align: center;
+    display: block;
+}
+.main .con2 .menu li:nth-child(1) .item {
+    top: 0;
+    left: 450px;
+}
+.main .con2 .menu li:nth-child(2) .item {
+    top: 0;
+    left: -50px;
+}
+.main .con2 .menu li:nth-child(2) .item p.more {
+    margin-left: 30px;
+}
+.main .con2 .menu li:nth-child(3) .item {
+    top: 0;
+    left: 300px;
+}
+.main .con2 .menu li:nth-child(4) .item {
+    left: -50px;
+    top: -20px;
+}
+
+/* main con3 */
+.main .con3 h2 {
+    font-family: '여기어때 잘난체';
+    font-weight: 900;
+    font-size: 45px;
+    text-align: left;
+}
+.main .con3 .inner {
+    height: 325px;
+    width: 1320px;
+}
+.main .con3 .ewrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main .con3 .ewrap .event {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+}
+.main .con3 .ewrap .event li:first-child {
+    margin-right: 4px;
+}
+.main .con3 .notice {
+    height: 40px;
+    width: 1320px;
+    overflow: hidden;
+    background: #000;
+    margin-top: -3px;
+    position: absolute;
+    bottom: 0;
+}
+.main .con3 .notice li {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.main .con3 .notice li a {
+    line-height: 40px;
+    color: #fff;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.main .con3 .notice li:nth-child(1) {
+    animation: roll1 6s infinite;
+}
+.main .con3 .notice li:nth-child(2) {
+    animation: roll2 6s infinite;
+}
+.main .con3 .notice li:nth-child(3) {
+    animation: roll3 6s infinite;
+}
+
+/* animation - roll1 */
+@keyframes roll1 {
+    0% {
+        bottom: 0;
+    }
+    25% {
+        bottom: 40px
+    }
+    25.1% {
+        bottom: -40px
+    }
+    50% {
+        bottom: -40px
+    }
+    75% {
+        bottom: -40px
+    }
+    100% {
+        bottom: 0
+    }
+}
+/* animation-roll2 */
+@keyframes roll2 {
+    0% {
+        bottom: -40px;
+    }
+    25% {
+        bottom: 0
+    }
+    50% {
+        bottom: 40px
+    }
+    50.1% {
+        bottom: -40px
+    }
+    75% {
+        bottom: -40px
+    }
+    100% {
+        bottom: -40px
+    }
+}
+/* animation-roll3 */
+@keyframes roll3 {
+    0% {
+        bottom: 40px;
+    }
+    25% {
+        bottom: 40px
+    }
+    25.1% {
+        bottom: -40px;
+    }
+    50% {
+        bottom: 0
+    }
+    75% {
+        bottom: 0
+    }
+    100% {
+        bottom: 40px
+    }
+}
+/* main-con4 */
+.main .con4 h2 {
+    font-family: '여기어때 잘난체';
+    font-weight: 900;
+    font-size: 45px;
+    text-align: left;
+    margin-top: 140px;
+    margin-bottom: 20px
+}
+.main .con4 .sns {
+    width: 100%;
+    height: 830px;
+    background: #ca1041;
+    position: relative;
+}
+.main .con4 .sns li {
+    position: absolute;
+    overflow: hidden;
+}
+.main .con4 .sns li:nth-child(1) {
+    top: 5px;
+    left: 5px;
+}
+.main .con4 .sns li:nth-child(1) img {
+    width: 540px;
+    height: 540px;
+}
+.main .con4 .sns li:nth-child(9) img {
+    width: 540px;
+    height: 540px;
+}
+.main .con4 .sns li img {
+    width: 265px;
+    height: 270px;
+}
+.main .con4 .sns li:nth-child(2) {
+    bottom: 5px;
+    left: 5px;
+}
+.main .con4 .sns li:nth-child(3) {
+    bottom: 5px;
+    left: 278px;
+}
+.main .con4 .sns li:nth-child(4) {
+    bottom: 5px;
+    left: 550px;
+}
+.main .con4 .sns li:nth-child(5) {
+    bottom: 278px;
+    left: 550px;
+}
+.main .con4 .sns li:nth-child(6) {
+    top: 5px;
+    left: 550px;
+}
+.main .con4 .sns li:nth-child(7) {
+    top: 5px;
+    right: 279px;
+}
+.main .con4 .sns li:nth-child(8) {
+    top: 5px;
+    right: 5px;
+}
+.main .con4 .sns li:nth-child(9) {
+    right: 5px;
+    bottom: 5px
+}
+.main .con4 .sns li img {
+    transform: scale(1);
+    transition: 1s
+}
+.main .con4 .sns li:hover img {
+    transform: scale(1.1)
+}
+.main .con4 .icon {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.main .con4 .icon li {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.main .con4 .icon li a {
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #c4d6c6;
+    text-align: center;
+}
+.main .con4 .icon li a i {
+    color: #c4d6c6;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+/* main - con5 */
+.main .con5 h2 {
+    font-family: '여기어때 잘난체';
+    font-weight: 900;
+    font-size: 45px;
+    text-align: left;
+    margin-top: 140px;
+    margin-bottom: 20px
+}
+.main .con5 .phone {
+    background-repeat: no-repeat;
+    background-position: 250px 100px;
+    background-image: url('../images/phone.png');
+    display: inline-block;
+    width: 600px;
+    height: 700px;
+}
+.main .con5 .phone img {
+    margin-left: 270px;
+    margin-top: 180px;
+}
+.main .con5 .service {
+    display: inline-block;
+    width: 500px;
+}
+.main .con5 .service img {
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+#footer {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    background: #343434
+}
+#footer .f_top {
+    border-bottom: 1px solid #999;
+    padding-left: 275px;
+    box-sizing: border-box;
+}
+#footer .f_top strong {
+    margin-right: 20px;
+}
+#footer .f_top strong a {
+    color: #fff;
+    line-height: 65px;
+    font-size: 13px;
+}
+#footer .f_bottom {
+    padding-left: 275px;
+    box-sizing: border-box;
+}
+#footer .f_bottom strong {
+    margin-right: 20px;
+    line-height: 50px;
+}
+#footer .f_bottom strong a {
+    font-size: 13px;
+    color: #fff;
+}
+#footer .f_bottom p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+}
+#footer select {
+    position: absolute;
+    bottom: 100px;
+    right: 275px;
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    line-height: 35px;
+    color: #999
+}

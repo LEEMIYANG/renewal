@@ -1,0 +1,445 @@
+#wrap {
+    width: 100%;
+    height: 1111.1111vw;
+    position: relative;
+}
+.hidden{display:none;}
+/* header */
+#header {
+    width: 100%;
+    height: 19.4444vw;
+    position: relative;
+    z-index: 10;
+    border-bottom: 0.5556vw solid #fff;
+}
+#header h1 {
+    padding-top: 8vw;
+    padding-left: 6vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+}
+#header a img {
+    width: 100%;
+}
+#header .lang {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 4vw;
+    position: absolute;
+}
+#header .kor {
+    right: 30vw;
+    top: 9vw
+}
+#header .eng {
+    right: 20vw;
+    top: 9vw;
+}
+#header .all-menu {
+    position: absolute;
+    top: 5.5556vw;
+    right: 5.5556vw;
+}
+#header .all-menu i {
+    font-size: 11.1111vw;
+    color: #fff;
+}
+/* navigation */
+#nav {
+    background: #fff;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 100%;
+    transition: 0.6s;
+    height: 100vh;
+    z-index: 600;
+}
+#nav.on {
+    right: 0;
+}
+#nav .gnb {
+    padding-top: 17.3333vw;
+}
+#nav .gnb > li > a {
+    display: block;
+    height: 11.1111vw;
+    border-bottom: 0.2778vw solid rgba(0, 0, 0, 0.8);
+    line-height: 12.1111vw;
+    color: #333;
+    font-size: 5vw;
+    font-weight: 500;
+    background: #fff;
+    letter-spacing: -0.25vw;
+    text-indent: 6.6667vw;
+}
+#nav .gnb li:first-child > a {
+    border-top: 0.2778vw solid #000;
+}
+#nav .gnb li ul {
+    display:none;
+}
+#nav .gnb li ul li{
+    font-size: 4vw;
+    display: block;
+    height: 11.1111vw;
+    border-bottom: 0.2778vw solid #000;
+    line-height: 11.1111vw;
+    color: #333;
+    font-weight: 400;
+    letter-spacing: -0.1944vw;
+    text-indent: 6.6667vw;
+    background: gray;
+}
+#nav .close {
+    position: absolute;
+    right: 2.7778vw;
+    top: 2.7778vw;
+}
+#nav .close i {
+    font-size: 8.3333vw;
+}
+/* visual */
+#visual {
+    width: 100%;
+    height: 207.7778vw;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+#visual p {
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    font-size: 4.4444vw;
+    position: absolute;
+    z-index: 1;
+    top: 55.5556vw;
+    left: 5.5556vw;
+    line-height: 1.5;
+}
+#visual p b {
+    font-weight: 700;
+}
+#visual p span {
+    font-size: 3vw;
+    line-height: 1.7;
+    display: block;
+    margin-bottom: -4.7222vw;
+    letter-spacing: 0.1em;
+}
+/* main */
+#container {
+    width: 100%;
+    margin-top: 187vw;
+}
+#content {
+    width: 100%;
+}
+.main .con-wrap {
+    width: 100%;
+}
+/* business */
+.main .bs {
+    width: 100%;
+    height: 141.6667vw;
+    background-image: url('../images/b_bg.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.main h2 {
+    font-size: 6.1111vw;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 13.3333vw;
+    padding-bottom: 8.3333vw;
+}
+.main .bs .txt {
+    display: flex;
+    margin-left: 1.6667vw;
+    margin-bottom: 5.5556vw;
+}
+.main .bs .txt li {
+    margin-right: 1.3889vw;
+}
+.main .bs .txt li a {
+    color: #fff;
+    display: block;
+    padding: 1.3889vw 1.9444vw;
+    border: 0.2778vw solid #fff;
+    border-radius: 1.3889vw;
+}
+.main .bs .txt li.on a {
+    color: #000;
+    background: #fff;
+}
+/* swiper 설정 */
+.main .bs .mySwiper2 .swiper-slide span {
+    text-align: left;
+    position: absolute;
+    bottom: 27.7778vw;
+    left: 8.3333vw;
+    color: #fff;
+    font-size: 6.9444vw;
+    z-index: 1;
+}
+.main .bs .mySwiper2 .swiper-slide p {
+    position: absolute;
+    bottom: 11.1111vw;
+    left: 8.3333vw;
+    color: #fff;
+    font-size: 4.4444vw;
+    font-weight: 300;
+}
+.mySwiper2 .swiper-slide {
+    background: transparent;
+    width: 83.3333vw;
+    margin-left: -8.3333vw;
+}
+.mySwiper2 .swiper-slide img {
+    filter:brightness(1);
+}
+.mySwiper2 .swiper-slide:hover img {
+    filter:brightness(0.5)
+}
+/* project */
+.main .pro {
+    position: relative;
+    height: 186.1111vw
+}
+.main .pro h2 {
+    color: #000;
+    margin-top: 5.5556vw;
+}
+.main .pro .mySwiper3 .swiper-slide img {
+    padding: 5.5556vw;
+}
+.main .pro .mySwiper3 .swiper-slide p {
+    position: absolute;
+    bottom: 0;
+    font-size: 3.6111vw;
+    font-weight: 600;
+}
+.main .pro .mySwiper3 .swiper-slide {
+    padding-bottom: 2.7778vw;
+}
+/* service */
+.main .ser {
+    width: 100%;
+    margin-top: 5.5556vw;
+    height: 90.0000vw;
+}
+.main .ser h2 {
+    color: #fff;
+}
+.main .ser .inner {
+    background: #3b33a4;
+    height: 90.0000vw;
+}
+.main .ser ul {
+    margin-left: 5.5556vw;
+}
+.main .ser ul li {
+    float: left;
+    margin-right: 2.7778vw;
+    margin-top: 2.7778vw;
+    position: relative;
+}
+.main .ser ul li:nth-child(4) {
+    margin-right: 0
+}
+.main .ser ul li a {
+    display: block;
+    width: 19.4444vw;
+    height: 19.4444vw;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5.5556vw;
+    box-sizing: border-box;
+}
+.main .ser ul li .sericon {
+    width: 50%;
+    height: 40px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.main .ser ul li .sericon img {
+    width: 100%;
+}
+.main .ser ul li a strong.sertxt {
+    font-size: 9px;
+    display: block;
+    margin-top: 5px;
+    line-height: 10px;
+    text-align: center;
+    color: #fff;
+}
+/* global */
+.main .glob {
+    width: 100%;
+    height: 125.8333vw;
+    margin-top: 5.5556vw;
+    position: relative;
+}
+.main .glob h2 {
+    color: #000;
+}
+.main .glob .globalimg > img {
+    width: 100%;
+}
+.main .glob .mySwiper4 {
+    position: absolute;
+    height: 13.8889vw;
+    bottom: 11.1111vw;
+}
+.main .glob .mySwiper4 .swiper-slide {
+    border: 0.2778vw solid #ccc;
+    height: 11.1111vw;
+    width: 38.8889vw;
+    border-radius: 2.7778vw;
+}
+.main .glob .mySwiper4 .swiper-slide:first-child {
+    margin-left: 0;
+    margin-left: 5.5556vw;
+}
+.main .glob .mySwiper4 .swiper-slide span {
+    font-size: 3.8889vw;
+}
+/* news */
+.main .news {
+    height: 118.0556vw;
+    width: 100%;
+}
+.main .news h2 {
+    color: #000;
+}
+.main .news ul.list {
+    margin: auto;
+    width: 95%;
+    height: 205px;
+}
+.main .news ul.list li {
+    width: 100%;
+    height: 100px;
+    border-top: 0.2778vw solid #ccc;
+    border-bottom: 0.2778vw solid #ccc;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.main .news ul.list li .newsprev {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+    display: inline-block;
+}
+.main .news ul.list li .newsprev img {
+    width: 100%;
+}
+.main .news ul.list li .newstxt {
+    float: left;
+    width: 220px;
+    margin-top: 5%;
+    display: inline-block;
+    font-size: 12px;
+}
+.main .news p.more {
+    text-align: center;
+    display: inline-block;
+    margin-left: 37.5000vw;
+    margin-top: 5.5556vw;
+}
+.main .news p.more a {
+    display: block;
+    border: 0.2778vw solid #ccc;
+    padding: 1.3889vw 5.5556vw;
+    font-weight: 300;
+    border-radius: 2.7778vw;
+    font-size: 3.8889vw;
+}
+/* recruit */
+.main .re {
+    height: 166.6667vw;
+    width: 100%;
+}
+.main .re .list li h2 {
+    font-size: 5.5556vw;
+    color: #000;
+    text-align: center;
+    padding-top: 0;
+}
+.main .re .list li a img {
+    margin-left: 33vw;
+}
+.main .re .list li p {
+    font-size: 4.1667vw;
+    color: #999;
+    text-align: center;
+    margin-top: 5.5556vw;
+    margin-bottom: 11.1111vw;
+}
+/* footer */
+#footer {
+    width: 100%;
+}
+#footer .inner1 {
+    width: 100%;
+    height: 20.8333vw;
+    background: #414040;
+    padding-top: 4.1667vw;
+    box-sizing: border-box;
+}
+#footer .inner1 p {
+    display: inline-block;
+    font-size: 3.6111vw;
+    color: #ccc;
+    padding-right: 2.7778vw;
+    position: relative;
+}
+#footer .inner1 p::after {
+    content: "";
+    display: block;
+    width: 0.2778vw;
+    height: 2.7778vw;
+    background: #ccc;
+    position: absolute;
+    top: 1.1111vw;
+    left: -1.6667vw;
+}
+#footer .inner1 p:first-child {
+    margin-left: 13.8889vw;
+}
+#footer .inner1 p:nth-child(4) {
+    margin-left: 4.1667vw
+}
+#footer .inner1 p:first-child::after {
+    display: none;
+}
+#footer .inner1 p:nth-child(4)::after {
+    display: none;
+}
+#footer .inner2 {
+    height: 41.6667vw;
+    width: 100%;
+    background: #ccc;
+}
+#footer .inner2 img {
+    display: block;
+    margin-left: 45%;
+    padding-top: 2.7778vw;
+    margin-bottom: 2.7778vw;
+}
+#footer .inner2 strong {
+    margin-left: 5.5556vw;
+    font-size: 3.8889vw;
+    color: #000;
+}
+#footer .inner2 p {
+    font-size: 3.8889vw;
+    margin-top: 15vw;
+    margin-left: 2.7778vw;
+}

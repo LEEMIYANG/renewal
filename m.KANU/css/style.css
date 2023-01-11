@@ -1,0 +1,87 @@
+#wrap{width: 100%;}
+#header {width: 100%;height:18.0556vw;position:relative;display:flex;justify-content:center;align-items:center;}
+#header .all-menu{position:absolute;left:5.5556vw;top:5.5556vw;}
+#header .all-menu i{font-size: 8.3333vw;}
+#header h1{}
+#header h1 a{}
+#header h1 a img{width:36.1111vw;height: 18.0556vw;}
+#header .top-search{position:absolute;right:20px;top:20px;}
+#header .top-search i{font-size: 8.3333vw;}
+
+b{font-weight: 600;}
+
+#visual {width: 100%;height:108.3333vw;background-repeat:no-repeat;background-position:0 0 ;background-image:url(../images/visual.jpg); background-size:cover;}
+#visual h2{color:#fff;font-size: 5.5556vw;text-align:center;padding-top:44.4444vw;padding-bottom:11.1111vw;}
+#visual h3{color:#fff;font-size:5.0000vw;text-align:center;line-height:1.6;}
+#visual .paging{position:absolute;left:50%;bottom:30%;display:flex;transform:translateX(-50%);}
+#visual .paging li{width:2.7778vw;height:2.7778vw;border-radius:50%;border:0.2778vw solid #fff;margin-right:1.3889vw;}
+#visual .paging li:last-child{margin-right:0;}
+#visual .paging li.on{background:#fff;}
+
+
+.main .con-box .inner{width: 91.6667vw;margin:auto;}
+.main .con1 {width:100%;height:83.3333vw;background:#dac2a9;}
+.main .con1 .back{width: 100%;height:43.3333vw;background-repeat:no-repeat;background-position:0 0;background-size:cover;background-image:url(../images/bg_2.jpg);opacity:0.3;}
+.main .con1 .inner{width: 91.6667vw;margin:auto;position:relative;}
+.main .con1 .inner p span{color:#4d0505;font-weight:500;}
+.main .con1 .inner p.about1{text-align:center;position:absolute;left:6vw;top:-17vw;font-size: 4.1667vw;font-weight: 600;}
+.main .con1 .inner p.about2{padding:0 1.3889vw;margin-top:10px;font-size: 3vw;color:#333333;text-align:left;}
+.main .con1 .inner p.about3{margin-top:10px;color:#333333;text-align:center;font-size: 3.20vw;font-weight:600;}
+
+
+.main .con2{width: 100%;height: 116.6667vw;}
+.main .con2 .inner{width:91.6667vw;margin:auto;position:relative;}
+.main .con2 .inner h4{margin-top:20px;margin-bottom:15px;font-size: 5.5556vw;text-align:center;}
+.main .con2 .inner h4 i{margin-left:5px;}
+.main .con2 .inner .items{color:#333;margin-left:30px;width: 33.3333vw;height: 8.3333vw;border-radius:10px;margin-right:10px;background:#fff;border:1px solid #333;}
+.main .con2 .inner .brand{color:#333;width: 33.3333vw;height: 8.3333vw;border-radius:10px;background:#fff;border:1px solid #333;}
+.main .con2 .inner .list{margin-top:10px;margin-bottom:10px;display:flex;}
+.main .con2 .inner .list li{font-size: 3.5vw;margin-right:7px;color:#000;}
+.main .con2 .inner .list li:hover a{border-bottom:1px solid #000;}
+.main .con2 .inner .list li:last-of-type{margin-right:0px;}
+.main .con2 .menu{width: 100%;height:75vw;background-repeat:no-repeat;background-image:url(../images/brand_bg.png);background-size:cover;position:relative;}
+.main .con2 .menu .product{}
+.main .con2 .menu .product li{}
+.main .con2 .menu .product li a{}
+.main .con2 .menu .product li a .imagebox{width:40vw;height:40vw;border:1px solid transparent; background:#fff;border-radius:50%;opacity:0.4;position:absolute;left:30.8333vw;top:15.2778vw;}
+.main .con2 .menu .product li a img{position:absolute;left:40vw;top:6vw;}
+.main .con2 .menu .product li a em{font-size:4.4444vw;color:#fff;position:absolute;left:34vw;top:58vw;text-align:center;}
+.main .con2 .menu .left{display:inline-block;width:13.8889vw;height:13.8889vw; border-radius:50%;background:#fff;opacity:0.4;position:absolute;left:10px;top:40%;}
+.main .con2 .menu .right{display:inline-block;width:13.8889vw;height:13.8889vw;border:1px solid #fff; border-radius:50%;background:#fff;opacity:0.4;position:absolute;right:10px; top:40%;}
+.main .con2 .menu a i{margin-left:15px;margin-top:15px;font-size: 5.5556vw;}
+
+
+.main .con3 {width:100%;height:95.8333vw;background:#000;margin-top:-40px;}
+.main .con3 h4{text-align:center;font-size: 6.9444vw;color:#a3a3a3;padding-top:10px;padding-bottom:10px;}
+.main .con3 .cf{height:66.6667vw;width: 100%; background-repeat:no-repeat;background-position:0 0; background-image:url(../images/cf.png);background-size:cover;}
+
+.main .con4 {width: 100%;height: 140.2778vw;}
+.main .con4 h4{padding-top:11.1111vw;font-size: 6.9444vw;text-align:center;}
+.main .con4 .news{width: 100%;}
+.main .con4 .news li{border-top:1vw solid #999;border-bottom:1vw solid #999;padding:10px;height:25vw;padding-top:8vw;margin-bottom:-1vw;}
+.main .con4 .news li a{}
+.main .con4 .news li a .articleimg{width:22.2222vw;float:left;margin-right:1vw;height: 8.3333vw;}
+.main .con4 .news li a img{}
+.main .con4 .news li a .txt {height: 38.8889vw;}
+.main .con4 .news li a .txt strong{display:block;}
+.main .con4 .news li a .txt em{display:block;margin-left:23vw;color:#999;margin-top:5vw;font-size: 3.3333vw;}
+.main .con4 .news_more{margin-left:35vw;margin-top:-3.5vw;width: 19.4444vw;height: 8.3333vw;}
+.main .con4 .news_more a{font-size:4.1667vw;color:#333;display:block;border:0.5556vw solid #999;border-radius:4vw;background:#fff;font-weight: 600;text-align:center;}
+
+.main .con5 {width: 100%;height:75.0000vw;background:#dac2a9;margin-top:11.1111vw;padding-top:8.3333vw;}
+.main .con5 li{width: 20.8333vw;height:20.8333vw;border:1px solid #fff;border-radius:50%;background:#fff;float:left;margin-left:18vw;margin-bottom:13vw;}
+.main .con5 li a img{width: 12.5vw;height: 12.5vw;display:block;padding:4.7vw;}
+.main .con5 li a strong{font-size: 5.5556vw;font-weight:600;display:block;text-align:center;margin-top:1.3889px;}
+
+#footer{width: 100%;height: 100vw;background:#dac2a9;}
+#footer .sns{display:flex; justify-content: space-between;margin:0 6vw;margin-bottom:4.1667vw;}
+#footer .sns li{border:1px solid #686969;width:12.5000vw;height:12.5000vw;border-radius:50%;background:#686969;}
+#footer .sns li i{display:block;color:#fff;font-size:8vw;text-align:center;line-height:12.5vw;}
+
+
+#footer .inner{width: 91.6667vw;margin: auto;}
+#footer .inner em{font-size:3vw;margin-right:5.5556vw;color:#333;}
+#footer .inner .family{width:100%;display:block;margin:4.1667vw 0;border:none;background:#dac2a9;font-size:4.1667vw;padding-bottom:2.2222vw;color:#333;border-bottom:0.8vw solid #333;}
+#footeer .inner .family option{}
+#footer .inner .info{font-size:3.6111vw;line-height:8vw;color:#333;font-weight: 500;}
+

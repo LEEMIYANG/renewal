@@ -1,0 +1,710 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+ @import url('https://fonts.cdnfonts.com/css/century-gothic');
+body {
+        font-family: 'NanumSquare';
+}
+#wrap {
+    width: 100%;
+}
+/* header */
+#header {
+    width: 100%;
+}
+#header .club {
+    width: 100%;
+    height: 50px;
+}
+#header .club a {
+    color: #fff;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    background: linear-gradient(to right,#ff934c,#fc686f);
+    font-size: 16px;
+    font-weight: 600;
+}
+#header h1 {
+    text-align: center;
+    height: 94px;
+    background: #303030
+}
+#header h1 a {
+    margin: auto;
+    display: inline-block;
+}
+#header h1 a img {
+    margin-top: 30px
+}
+#header .top-menu {
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+#header .top-menu li {
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#header .top-menu li:nth-child(1) span {
+    position: absolute;
+    right: 180px;
+    top: 0;
+}
+#header .top-menu li:nth-child(1) input {
+    width: 260px;
+    height: 36px;
+    border-radius: 36px;
+    background: linear-gradient(to right,#cafdbf,#feb2be);
+    border: none;
+    margin-top: -5px
+}
+#header .top-menu li span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+#nav{width:100%;height:45px;background:black;position:relative;}
+.navgnb{width:80%;position:absolute;}
+.gnb{padding:0 200px;box-sizing:border-box;}
+.gnb>li{float:left;width:14%;height:45px;}
+.gnb>li>a{display:block;text-align:center;line-height:45px;color:#fff;font-weight: 900;}
+.gnb>li>a:hover{color:#fc686f;}
+.sub-menu{position:absolute;width:100%;height:300px;left:0;top:45px;z-index:50;padding:0 200px;box-sizing:border-box;background:rgba(0,0,0,0.8);transition:0.5s;display:none;}
+.sub-menu.on{display:block;}
+.sub-menu>li{float:left;width:14%;height:30px;padding-top:10px;}
+.sub-menu>li>a{display:block;font-size: 14px;color:#fff;line-height:30px;text-align:center;transition:0.5s;}
+.sub-menu>li>a:hover{color:#fc686f;}
+.login{width:20%;float:right;}
+.login>li{float:left;margin-left:30px;}
+.login>li>a{font-size: 14px;float:left;color:#fff;font-weight: 900;line-height:45px;}
+.login>li>a>i{display:inline-block;}
+
+
+
+
+
+/* visual */
+#visual {
+    width: 100%;
+    height: 945px;
+    position: relative;
+}
+#visual .banner {
+    display: flex;
+    width: 100%;
+    height: 945px;
+    overflow: hidden;
+    position: relative;
+}
+#visual .banner li {
+    width: 100%;
+    height: 945px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#visual .banner li:nth-child(1) {
+    background-image: url('../images/visual.png');
+}
+#visual .banner li:nth-child(2) {
+    background-image: url('../images/visual.png');
+}
+#visual .banner li:nth-child(3) {
+    background-image: url('../images/visual.png');
+}
+#visual .banner li img {
+    width: 100%;
+    height: 945px;
+}
+#visual .banner li .main-txt {
+    margin-top: -600px;
+    margin-left: 270px;
+    position: absolute;
+    top: 900px
+}
+#visual .banner li .main-txt h2 {
+    color: #fff;
+    font-size: 80px;
+    font-family: 'century-gothic';
+}
+#visual .banner li .main-txt p.more {
+    width: 138px;
+    height: 46px;
+    display: inline-block;
+    margin-top: 85px;
+}
+#visual .banner li .main-txt p.more a {
+    border: 1px solid #fff;
+    text-align: center;
+    display: block;
+    line-height: 46px;
+    color: #fff;
+}
+#visual .main-txt .banner-slide {
+    margin-top: 85px;
+    position: relative;
+}
+#visual .main-txt .banner-slide .line {
+    display: inline-block;
+    width: 450px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.4);
+}
+#visual .banner-slide i.xi-pause {
+    position: absolute;
+    left: 460px;
+    top: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+#visual .banner-slide i.xi-play {
+    position: absolute;
+    left: 460px;
+    top: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+/* main */
+.main h2 {
+    font-family: 'century-gothic';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 103px;
+    margin-bottom: 45px;
+}
+#container {
+    width: 100%;
+}
+#content {
+    width: 100%;
+}
+.main .con-box {
+    width: 100%;
+    position: relative;
+}
+.main .con-box .inner {
+    width: 1240px;
+    margin: auto;
+}
+/* con1 - new arrival */
+.main .con1 .c1 {
+    position: relative;
+    height: 500px;
+    width: 1240px;
+    overflow: hidden;
+}
+.main .con1 .c1 .new {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    margin-left: 30px;
+}
+.main .con1 .c1 .new li {
+    margin-right: 20px;
+}
+.main .con1 p {
+    text-align: center;
+    margin-top: 13px;
+    font-weight: 500;
+}
+.main .con1 p.show {
+    background: #000;
+    height: 45px;
+    text-align: center;
+    margin-top: 40px;
+}
+.main .con1 p.show a {
+    color: #fff;
+    line-height: 45px;
+    display: block;
+}
+.main .con1 .btn {
+    position: absolute;
+    top: 60%;
+}
+.main .con1 .btn button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.main .con1 .btn .prev {
+    margin-left: -15px;
+}
+.main .con1 .btn .next {
+    margin-left: 1165px;
+}
+.main .con1 .btn button span {
+    font-weight: 400;
+    font-size: 50px;
+}
+.main .con1 p.more {
+    height: 46px;
+    width: 180px;
+    margin-left: 535px;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+.main .con1 p.more a {
+    display: block;
+    text-align: center;
+    line-height: 46px;
+    border: 1px solid #000;
+    position: relative;
+    width: 180px;
+    height: 46px;
+}
+.main .con1 p.more a:hover {
+    color: #fff;
+}
+.main .con1 p.more a::before {
+    display: block;
+    content: "";
+    background: #000;
+    width: 0;
+    height: 46px;
+    position: absolute;
+    top: 0;
+    transition: 0.6s;
+    z-index: -1;
+}
+.main .con1 p.more a:hover::before {
+    display: block;
+    content: "";
+    background: #000;
+    width: 180px;
+    height: 46px;
+    position: absolute;
+    top: 0;
+}
+/* con2 - promotion video */
+.main .con2 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/video_bg1.png');
+    height: 613px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main .con2 .video {
+    margin-left: 350px;
+    padding-top: 130px;
+    box-sizing: border-box;
+    position: relative;
+}
+/* .main .con2 .video span{color:rgba(255,255,255,0.4);background:transparent;font-size: 100px;cursor:pointer;position:absolute;left:350px;top:300px;}
+.main .con2 .video span:hover{transform:scale(1.1);transition:0.6s} */
+/* con3 - best seller items */
+.main .con3 {
+    height: 935px;
+}
+.main .con3 .inner {
+    width: 1240px;
+    margin: auto;
+}
+.main .con3 .list {
+    display: flex;
+    margin-left: 355px;
+    margin-bottom: 145px;
+    cursor: pointer;
+}
+.main .con3 .list li.on {
+    background: #ffd900;
+    text-align: center;
+}
+.main .con3 .list li {
+    margin-right: 35px;
+}
+.main .con3 .list li:last-child {
+    margin-right: 0
+}
+.main .con3 .best > li {
+    display: none;
+}
+.main .con3 .best > li.on {
+    display: block;
+}
+.main .con3 .best li ul {
+    display: flex;
+    margin-left: 120px;
+    position: relative;
+    margin-top: 400px;
+}
+.main .con3 .best li ul > li {
+    margin-right: 180px;
+}
+.main .con3 .best li ul>li:last-child {
+    margin-right: 0;
+}
+.main .con3 .best li ul > li .txt {
+    margin: auto;
+}
+.main .con3 .best li ul > li .txt strong {
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.main .con3 .best li ul li > img {
+    display: block;
+    margin: auto auto 300px;
+    position: absolute;
+    bottom: 0;
+}
+.main .con3 .best li ul li .txt p {
+    text-align: center;
+    display: block;
+    color: #7c7c7c;
+    margin-bottom: 20px;
+}
+.main .con3 .best li ul li:first-child .txt {
+    margin-left: 40px;
+}
+.main .con3 .best li ul li .txt .star {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.main .con3 .best li ul li .txt .star span {
+    text-align: center;
+    color: #ffd900;
+    margin-right: -10px;
+}
+.main .con3 .best li ul li .txt .star span.cnt{color:#000;margin-left:5px;}
+.main .con3 .best li ul li .txt em {
+    text-align: center;
+    display: block;
+}
+.main .con3 .best li ul li .txt img {
+    margin: 15px auto;
+    display: block;
+}
+.main .con3 .best li ul li .txt p.add {
+    width: 150px;
+    height: 36px;
+    margin: 20px auto;
+}
+.main .con3 .best li ul li .txt p.add a {
+    line-height: 36px;
+    display: block;
+    background: #000;
+    color: #fff;
+}
+/* con4 - makeup tip */
+.main .con4 {
+    margin-top: 150px;
+    height: 610px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url('../images/video_bg2.png');
+}
+.main .con4 .inner {
+    padding-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+}
+.main .con4 .txt {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.main .con4 .txt h3 {
+    font-size: 25px;
+    color: #fff;
+    background: #000;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.main .con4 .txt p {
+    font-size: 36px;
+    text-align: left;
+    color: #fff;
+    line-height: 1.2
+}
+/* con5 - aespa's pick*/
+.main .con5 h2 {
+    margin-bottom: 80px;
+}
+.main .con5 .pick {
+    display: inline-block;
+    margin-left: 100px;
+}
+.main .con5 .pick li {
+    margin-bottom: 80px;
+}
+.main .con5 .pick li em {
+    background: #000;
+    color: #fff;
+    padding: 2px 5px;
+    box-sizing: border-box;
+}
+.main .con5 .pick li img {
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.main .con5 .pick li strong {
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.main .con5 .ss {
+    width: 180px;
+    height: 46px;
+    margin: auto auto 80px;
+}
+.main .con5 .ss a {
+    width: 180px;
+    height: 46px;
+    display: block;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 46px;
+    position: relative;
+}
+.main .con5 .ss a:hover {
+    color: #fff;
+}
+.main .con5 .ss a::before {
+    display: block;
+    content: "";
+    background: #000;
+    width: 0;
+    height: 46px;
+    position: absolute;
+    top: 0;
+    transition: 0.6s;
+    z-index: -1;
+}
+.main .con5 .ss a:hover::before {
+    display: block;
+    content: "";
+    background: #000;
+    width: 180px;
+    height: 46px;
+}
+/* con6 - event banner */
+.main .con6 {
+    margin-bottom: 75px;
+}
+.main .con6 .event {
+    display: flex;
+}
+.main .con6 .event li {
+    cursor: pointer;
+    transition: 0.5s;
+    
+    position: relative;
+}
+.main .con6 .event li h4 {
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.main .con6 .event li:nth-child(2)::after {
+    transition: 1s;
+    background: #000;
+    opacity: 0;
+}
+.main .con6 .event li:nth-child(2):hover::after {
+    width: 607px;
+    height: 190px;
+    opacity: 0.5;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+/* con7 - promotion gallery */
+.main .con7 {
+    height: 620px;
+    width: 100%;
+}
+.main .con7 .swiper .swiper-wrapper .swiper-slide {
+    width: 50%;
+}
+.main .con7 .swiper .swiper-wrapper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* con8 - best review  */
+.main .con8 {
+    margin-top: 120px;
+}
+.main .con8 .inner {
+    display: flex;
+}
+.main .con8 .breview {
+    margin-right: 130px;
+    margin-left: 40px;
+}
+.main .con8 .breview h2 {
+    text-align: left;
+}
+.main .con8 .breview .btn button {
+    cursor: pointer;
+}
+.main .con8 .slide {
+    width: 930px;
+    height: 410px;
+    position: relative;
+    overflow: hidden;
+}
+.main .con8 .slide .review {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    left: 0;
+}
+.main .con8 .slide .review li {
+    margin-right: 10px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #999;
+}
+.main .con8 .slide .review li a {
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.main .con8 .slide .review li a strong {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    margin: 10px 0;
+}
+.main .con8 .slide .review li a p {
+    color: #999;
+    font-size: 15px;
+    text-align: left;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+}
+.main .con8 .slide .review li a em {
+    font-size: 16px;
+    color: #999;
+}
+.main .con8 .slide .review li a .star {
+    display: inline-block;
+    display: flex;
+}
+.main .con8 .slide .review li a .star span {
+    color: #ffd900;
+    font-size: 20px;
+}
+.main .con8 .breview .btn button {
+    background: transparent;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-right: 10px;
+}
+.main .con8 .breview .btn .next {
+    background: #000;
+}
+.main .con8 .breview .btn .next span {
+    color: #fff
+}
+/* con9 - sns review */
+.main .con9 .sns {
+    display: flex;
+}
+.main .con9 .sns li {
+    margin-right: 5px;
+    overflow: hidden;
+}
+.main .con9 .sns li img {
+    transition: 0.6s
+}
+.main .con9 .sns li:hover img {
+    transform: scale(1.2);
+}
+/* footer */
+#footer {
+    width: 100%;
+    margin-top: 50px;
+}
+#footer .first {
+    width: 100%;
+    background: #000;
+}
+#footer .inner {
+    display: flex;
+    width: 1240px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#footer p {
+    line-height: 2.5;
+    color: #fff;
+    text-align: left;
+    font-weight: 300;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-right: 80px;
+    cursor: pointer;
+}
+#footer p:last-child {
+    margin-right: 0;
+}
+#footer p span {
+    font-weight: 700;
+}
+#footer .second {
+    background: #d7d7d7;
+    height: 65px;
+}
+#footer .second .inner {
+    margin: auto;
+}
+#footer .second strong {
+    color: #999;
+    line-height: 65px;
+    display: inline-block;
+    margin-right: 20px;
+}
+#footer .second select {
+    margin-left: 700px;
+}
+#footer .second select {
+    border: 1px solid #999;
+    width: 215px;
+    height: 55px;
+    line-height: 55px;
+    margin-top: 5px;
+    background: transparent;
+    padding: 0 5px;
+    color: #999;
+}
+#footer .third img {
+    transform: scaleY(0.9);
+    margin-top: 15px;
+}
+#footer .third p {
+    color: #000;
+    line-height: 1.5;
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: 12px;
+}
