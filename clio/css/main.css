@@ -253,7 +253,7 @@ body {
 .main .con1 .c1 {
     position: relative;
     height: 500px;
-    width: 1240px;
+    width: 100%;
     overflow: hidden;
 }
 .main .con1 .c1 .new {
@@ -264,6 +264,7 @@ body {
     top: 0;
     display: flex;
     margin-left: 30px;
+    overflow:hidden;
 }
 .main .con1 .c1 .new li {
     margin-right: 20px;
